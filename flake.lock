@@ -1,0 +1,69 @@
+{
+  "nodes": {
+    "ciel": {
+      "inputs": {
+        "nix-eda": [
+          "nix-eda"
+        ]
+      },
+      "locked": {
+        "lastModified": 1759223140,
+        "narHash": "sha256-J8ILOefWP20OV5HKjvqpkTp1XXZjK+QQVZ8UVA/xHdo=",
+        "owner": "fossi-foundation",
+        "repo": "ciel",
+        "rev": "01e16f58fa004deddbb13d2a3ced70e93e88fbe7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fossi-foundation",
+        "repo": "ciel",
+        "type": "github"
+      }
+    },
+    "nix-eda": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1759413531,
+        "narHash": "sha256-SZA2mxB0NXv4Elq/GrnOW2Aif41MwALpA9j1ib3XzOg=",
+        "owner": "fossi-foundation",
+        "repo": "nix-eda",
+        "rev": "d8e884cd9198ffb1e545f2b66673db83f3ce08a1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fossi-foundation",
+        "repo": "nix-eda",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1759281824,
+        "narHash": "sha256-FIBE1qXv9TKvSNwst6FumyHwCRH3BlWDpfsnqRDCll0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "5b5be50345d4113d04ba58c444348849f5585b4a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-25.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ciel": "ciel",
+        "nix-eda": "nix-eda",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
