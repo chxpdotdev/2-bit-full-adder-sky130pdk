@@ -148,7 +148,7 @@
             }
 
             echo
-            echo "🔧 SKY130 dev shell"
+            echo "VLSI project dev shell"
             echo "  PDK_ROOT: $PDK_ROOT"
             if [ -n "$MAGIC_TECH" ]; then echo "  MAGIC_TECH: $MAGIC_TECH"; else echo "  MAGIC_TECH: <not set>"; fi
             if [ -n "$XSCHEM_LIBRARY_PATH" ]; then
